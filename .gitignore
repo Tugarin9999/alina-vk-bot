@@ -1,0 +1,25 @@
+# Секреты и локальные настройки — не должны попадать в Git/GitHub
+.env
+.env.local
+.env.*.local
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Временные файлы
+*.log
+.DS_Store
